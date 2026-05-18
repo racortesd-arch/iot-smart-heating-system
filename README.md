@@ -41,7 +41,7 @@ The system architecture is composed of four main layers:
 
 ### Architecture Diagram
 
-<p align="center"><img width="500" height="450" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/024316c2-2868-40de-b776-dacc2467da92" /></p>
+<p align="center"><img width="500" height="400" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/024316c2-2868-40de-b776-dacc2467da92" /></p>
 
 ---
 
