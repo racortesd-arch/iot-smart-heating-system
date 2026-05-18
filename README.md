@@ -52,14 +52,14 @@ The system architecture is composed of four main layers:
 ### Hardware Setup
 
 <p align="center"><img width="300" height="400" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300"/>
-<img width="300" height="400" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" /></p>
+<img width="250" height="400" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" /></p>
 
 
 ## ⚡ Electrical Diagram
 
 The system uses an isolated relay module to safely switch a 220V heater while keeping the ESP32 low-voltage circuitry separated from the AC power stage.
 
-<p align="center"><img width="665" height="400" alt="Diagrama_conexion" src="https://github.com/user-attachments/assets/60a04189-7dd6-4e6d-a338-3ea8e00cc8ab" /></p>
+<p align="center"><img width="865" height="600" alt="Diagrama_conexion" src="https://github.com/user-attachments/assets/60a04189-7dd6-4e6d-a338-3ea8e00cc8ab" /></p>
 
 
 ## 🖥️ Software Stack
