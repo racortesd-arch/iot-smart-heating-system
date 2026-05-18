@@ -41,14 +41,14 @@ The system architecture is composed of four main layers:
 
 ### Architecture Diagram
 
-<p align="center"><img width="500" height="500" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/024316c2-2868-40de-b776-dacc2467da92" /></p>
+<p align="center"><img width="500" height="450" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/024316c2-2868-40de-b776-dacc2467da92" /></p>
 
 ---
 
 ## 🔌 Hardware
 
 ### Main Components
-
+<p align="center">
 | Component | Purpose |
 |---|---|
 | ESP32 | Main controller |
@@ -57,7 +57,7 @@ The system architecture is composed of four main layers:
 | SLA-05VDC-SL-A Relay | Heater switching |
 | 220V Heater | Room heating |
 | Mosquitto Broker | MQTT communication |
-
+</p>
 ### Hardware Setup
 
 <p align="center"><img width="300" height="400" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300"/>
