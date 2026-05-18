@@ -1,5 +1,5 @@
 # 🔥 Smart Heating IoT System
-IoT-based smart heating control system designed to automate room temperature regulation using an ESP32 microcontroller, MQTT communication, FastAPI backend and Grafana visualization.
+IoT-based smart heating control system designed to automate room temperature regulation using a mini ESP32C3 microcontroller, MQTT communication, FastAPI backend and Grafana visualization.
 
 ## 📌 Overview
 
@@ -42,7 +42,7 @@ The system architecture is composed of four main layers:
 ### Main Components
 | Component | Purpose |
 |---|---|
-| ESP32 | Main controller |
+| mini ESP32C3 | Main controller |
 | DS18B20 | Temperature sensing |
 | ACS712 | Current measurement |
 | SLA-05VDC-SL-A Relay | Heater switching |
@@ -57,7 +57,7 @@ The system architecture is composed of four main layers:
 
 ## ⚡ Electrical Diagram
 
-The system uses an isolated relay module to safely switch a 220V heater while keeping the ESP32 low-voltage circuitry separated from the AC power stage.
+The system uses an isolated relay module to safely switch a 220V heater while keeping the mini ESP32C3 low-voltage circuitry separated from the AC power stage.
 
 <p align="center"><img width="865" height="600" alt="Diagrama_conexion" src="https://github.com/user-attachments/assets/60a04189-7dd6-4e6d-a338-3ea8e00cc8ab" /></p>
 
@@ -70,7 +70,7 @@ The system uses an isolated relay module to safely switch a 220V heater while ke
 - PostgreSQL
 
 ### Embedded
-- ESP32
+- mini ESP32C3
 - ESP-IDF
 - MQTT Client
 
