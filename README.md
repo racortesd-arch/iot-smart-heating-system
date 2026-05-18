@@ -1,4 +1,3 @@
-<img width="2160" height="3840" alt="Setup2" src="https://github.com/user-attachments/assets/47201bd7-e1eb-4b12-9aaa-be7a0d976279" /># 🔥 Smart Heating IoT System
 
 IoT-based smart heating control system designed to automate room temperature regulation using an ESP32 microcontroller, MQTT communication, FastAPI backend and Grafana visualization.
 
@@ -42,7 +41,7 @@ The system architecture is composed of four main layers:
 
 ### Architecture Diagram
 
-<img width="697" height="537" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/2a930e48-c2ea-4901-ad4a-49725eef913d" />
+<img width="686" height="526" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/7d81b5e3-46e2-460a-a387-4b1bda4b337b" />
 
 ---
 
@@ -61,8 +60,8 @@ The system architecture is composed of four main layers:
 
 ### Hardware Setup
 
-<img width="3024" height="4032" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300" />
-<img width="2160" height="3840" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" />
+<img width="1500" height="2000" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300" />
+<img width="1500" height="2000" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" />
 
 ---
 
