@@ -1,4 +1,4 @@
-
+# 🔥 Smart Heating IoT System
 IoT-based smart heating control system designed to automate room temperature regulation using an ESP32 microcontroller, MQTT communication, FastAPI backend and Grafana visualization.
 
 ---
@@ -41,7 +41,7 @@ The system architecture is composed of four main layers:
 
 ### Architecture Diagram
 
-<img width="686" height="526" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/7d81b5e3-46e2-460a-a387-4b1bda4b337b" />
+<img width="686" height="526" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/024316c2-2868-40de-b776-dacc2467da92" />
 
 ---
 
