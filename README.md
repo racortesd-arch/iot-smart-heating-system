@@ -60,8 +60,8 @@ The system architecture is composed of four main layers:
 
 ### Hardware Setup
 
-<img width="1500" height="2000" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300" />
-<img width="1500" height="2000" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" />
+<img width="800" height="800" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300" />
+<img width="800" height="800" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" />
 
 ---
 
