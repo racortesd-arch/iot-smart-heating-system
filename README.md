@@ -1,8 +1,6 @@
 # 🔥 Smart Heating IoT System
 IoT-based smart heating control system designed to automate room temperature regulation using an ESP32 microcontroller, MQTT communication, FastAPI backend and Grafana visualization.
 
----
-
 ## 📌 Overview
 
 This project was developed to automate room heating based on real-time temperature measurements while providing remote monitoring and control capabilities.
@@ -10,8 +8,6 @@ This project was developed to automate room heating based on real-time temperatu
 The system measures ambient temperature using a DS18B20 sensor and controls a 220V electric heater through a relay module. Current consumption is monitored using an ACS712 current sensor for monitoring and validation purposes.
 
 Sensor data is transmitted securely through MQTT to a FastAPI backend, stored in PostgreSQL and visualized in Grafana dashboards.
-
----
 
 ## ✨ Features
 
@@ -28,8 +24,6 @@ Sensor data is transmitted securely through MQTT to a FastAPI backend, stored in
 - Remote configuration through Grafana
 - Automatic timeout protection
 
----
-
 ## 🏗️ System Architecture
 
 The system architecture is composed of four main layers:
@@ -43,12 +37,9 @@ The system architecture is composed of four main layers:
 
 <p align="center"><img width="500" height="400" alt="Diagrama Calefacc" src="https://github.com/user-attachments/assets/024316c2-2868-40de-b776-dacc2467da92" /></p>
 
----
-
 ## 🔌 Hardware
 
 ### Main Components
-<p align="center">
 | Component | Purpose |
 |---|---|
 | ESP32 | Main controller |
@@ -57,13 +48,12 @@ The system architecture is composed of four main layers:
 | SLA-05VDC-SL-A Relay | Heater switching |
 | 220V Heater | Room heating |
 | Mosquitto Broker | MQTT communication |
-</p>
+
 ### Hardware Setup
 
 <p align="center"><img width="300" height="400" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300"/>
 <img width="300" height="400" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" /></p>
 
----
 
 ## ⚡ Electrical Diagram
 
@@ -71,7 +61,6 @@ The system uses an isolated relay module to safely switch a 220V heater while ke
 
 <p align="center"><img width="665" height="400" alt="Diagrama_conexion" src="https://github.com/user-attachments/assets/60a04189-7dd6-4e6d-a338-3ea8e00cc8ab" /></p>
 
----
 
 ## 🖥️ Software Stack
 
@@ -93,7 +82,6 @@ The system uses an isolated relay module to safely switch a 220V heater while ke
 - Ubuntu Server
 - systemd services
 
----
 
 ## 📊 Grafana Dashboard
 
@@ -110,7 +98,6 @@ The Grafana dashboard provides:
 
 <p align="center"><img width="1752" height="928" alt="Grafana" src="https://github.com/user-attachments/assets/3ee50c90-0b2b-49ab-b914-817314147798" /></p>
 
----
 
 ## 🤖 Automatic Control Logic
 
