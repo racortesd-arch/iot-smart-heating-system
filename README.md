@@ -52,7 +52,7 @@ The system architecture is composed of four main layers:
 ### Hardware Setup
 
 
-<p align="center"><img width="3024" height="4032" alt="Setup 3" src="https://github.com/user-attachments/assets/3e310902-496f-4c3c-89c8-5c5c44788561" /><img width="300" height="400" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300"/>
+<p align="center"><img width="300" height="400" alt="Setup 3" src="https://github.com/user-attachments/assets/3e310902-496f-4c3c-89c8-5c5c44788561" /><img width="300" height="400" alt="Setup1" src="https://github.com/user-attachments/assets/18263e1b-dfcc-4700-9d33-25e469fbe300"/>
 <img width="250" height="400" alt="Setup2" src="https://github.com/user-attachments/assets/b03f21b6-e094-4570-a598-f221195922e0" /></p>
 
 
