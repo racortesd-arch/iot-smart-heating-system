@@ -98,12 +98,10 @@ The Grafana dashboard provides:
 
 ### Dashboard Examples
 
-<img width="2164" height="375" alt="Grafana3" src="https://github.com/user-attachments/assets/5209a84b-18cd-4bbd-8303-740ec9e2055a" />
-<img width="2163" height="759" alt="Grafana2" src="https://github.com/user-attachments/assets/05e53e98-b488-4db1-b898-ed19ba7692a0" />
+
 <img width="2186" height="865" alt="Grafana1" src="https://github.com/user-attachments/assets/85928950-a82c-41a0-8f97-8716d82643a5" />
-
-<p align="center"><img width="1752" height="928" alt="Grafana" src="https://github.com/user-attachments/assets/3ee50c90-0b2b-49ab-b914-817314147798" /></p>
-
+<img width="2163" height="759" alt="Grafana2" src="https://github.com/user-attachments/assets/05e53e98-b488-4db1-b898-ed19ba7692a0" />
+<img width="2164" height="375" alt="Grafana3" src="https://github.com/user-attachments/assets/5209a84b-18cd-4bbd-8303-740ec9e2055a" />
 
 ## 🤖 Automatic Control Logic
 
