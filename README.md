@@ -84,6 +84,27 @@ The system uses an isolated relay module to safely switch a 220V heater while ke
 - Ubuntu Server
 - systemd services
 
+## 📡 MQTT Communication
+
+The system uses MQTT over TLS for secure bidirectional communication between the ESP32 and the backend.
+
+### MQTT Topics
+
+| Topic | Purpose |
+|---|---|
+| `calefactor/sensores` | Sensor telemetry |
+| `calefactor/heater/cmd` | Heater control commands |
+
+### Telemetry Data
+
+The ESP32 periodically publishes:
+
+- Temperature
+- Current consumption
+- Heater state
+- WiFi RSSI
+- Device IP
+- Event type
 
 ## 📊 Grafana Dashboard
 
@@ -103,30 +124,41 @@ The Grafana dashboard provides:
 <img width="2163" height="759" alt="Grafana2" src="https://github.com/user-attachments/assets/05e53e98-b488-4db1-b898-ed19ba7692a0" />
 <img width="2164" height="375" alt="Grafana3" src="https://github.com/user-attachments/assets/5209a84b-18cd-4bbd-8303-740ec9e2055a" />
 
-## 🤖 Automatic Control Logic
+## 🧠 Intelligent Control Logic
 
-The automatic control system evaluates:
+The heating system implements multiple protection and automation layers to improve safety, stability and operational reliability.
 
-- Current room temperature
-- Configured operating schedule
-- Temperature thresholds
-- Heater timeout limits
+### Automatic Control Features
 
-### Control Logic
+- Temperature threshold control
+- Configurable operating schedules
+- Heater timeout protection
+- Cooldown protection between cycles
+- Manual override mode
+- Forced automatic activation
+- Automatic recovery after backend restart
 
-```text
-IF:
-    Current time is inside allowed schedule
-    AND
-    Temperature < Minimum threshold
+## 🛡️ Reliability & Safety Features
 
-THEN:
-    Heater ON
+Several protection mechanisms were implemented to improve operational safety and fault tolerance:
 
-IF:
-    Temperature > Maximum threshold
-    OR
-    Timeout exceeded
+- Automatic heater timeout shutdown
+- Cooldown delay between automatic cycles
+- Relay/current cross-validation
+- Backend recovery after restart
+- ESP32 offline monitoring
+- Event and alarm historical logging
+- Safe heater shutdown during backend restart
 
-THEN:
-    Heater OFF
+### Fault Detection
+
+The backend continuously validates heater behavior using current sensing and MQTT telemetry.
+
+Implemented alarms include:
+
+- Heater ON with no current detected
+- Current detected while relay is OFF
+- ESP32 offline detection
+- ESP32 unexpected reboot detection
+- Backend restart detection
+- ESP32 timeout protection events
